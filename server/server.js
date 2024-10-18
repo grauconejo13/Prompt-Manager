@@ -14,7 +14,7 @@ app.use(express.json());
 
 
 // Directly define the MongoDB URI for testing
-const MONGODB_URI = 'mongodb+srv://vievie:I1vMbVHHkFyBLPPW@grauconejo13.hpjmuez.mongodb.net/VanessaVictorino-prompt-db?retryWrites=true&w=majority'
+const MONGODB_URI = 'mongodb+srv://vievie:<password>@grauconejo13.hpjmuez.mongodb.net/VanessaVictorino-prompt-db?retryWrites=true&w=majority'
 console.log('MONGODB_URI:', MONGODB_URI); // Log to see the connection string being used
 
 // Replace <username> and <password> with your MongoDB credentials.
