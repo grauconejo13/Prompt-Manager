@@ -1,0 +1,18 @@
+{
+  "name": "vanessa-victorino-prompt-db",
+  "version": "1.0.0",
+  "description": "A Node.js and React project for managing AI-generated prompts with a GraphQL backend.",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server:dev\" \"npm run client\"",
+    "server:dev": "cd server && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "author": "Vanessa Victorino",
+  "license": "ISC"
+}
